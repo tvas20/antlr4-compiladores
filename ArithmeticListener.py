@@ -35,5 +35,32 @@ class ArithmeticListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by ArithmeticParser#program.
+    def enterProgram(self, ctx:ArithmeticParser.ProgramContext):
+        pass
+
+    # Exit a parse tree produced by ArithmeticParser#program.
+    def exitProgram(self, ctx:ArithmeticParser.ProgramContext):
+        pass
+
+
+    # Enter a parse tree produced by ArithmeticParser#statement.
+    def enterStatement(self, ctx:ArithmeticParser.StatementContext):
+        pass
+
+    # Exit a parse tree produced by ArithmeticParser#statement.
+    def exitStatement(self, ctx:ArithmeticParser.StatementContext):
+        pass
+
+
+    # Enter a parse tree produced by ArithmeticParser#assignment.
+    def enterAssignment(self, ctx:ArithmeticParser.AssignmentContext):
+        pass
+
+    # Exit a parse tree produced by ArithmeticParser#assignment.
+    def exitAssignment(self, ctx:ArithmeticParser.AssignmentContext):
+        pass
+
+
 
 del ArithmeticParser
